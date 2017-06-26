@@ -7,7 +7,7 @@ TARGET="ddns.holmesian.org"  #需要更新的域名
 SCKEY="" #到http://sc.ftqq.com/注册获得
 
 URL_D="https://www.cloudxns.net/api2/ddns"
-URL_S="http://sc.ftqq.com/$SCKEY.send?text=DDNS-update&desp="
+URL_S="https://sc.ftqq.com/$SCKEY.send?text=DDNS-update&desp="
 DATE=$(date)
 
 DdnsCheck() {
